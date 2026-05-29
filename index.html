@@ -1,0 +1,148 @@
+---
+layout: default
+---
+
+<h2>About</h2>
+
+<p>
+  I am Anucha Saelee, a Mathematics graduate from Mahidol University with hands-on
+  project experience in computer vision, machine learning, Streamlit/Flask web
+  applications, and deployment-ready AI tools.
+</p>
+
+<p>
+  My strongest work is building practical systems around models: data preprocessing,
+  model evaluation, inference workflows, dashboards, and simple interfaces that people
+  can actually use.
+</p>
+
+<hr>
+
+<h2>Skills</h2>
+
+<p><strong>Programming Languages:</strong> Python, SQL</p>
+<p><strong>ML Ops/DevOps:</strong> GitHub Actions, Docker, MLflow, FastAPI</p>
+<p><strong>Machine Learning:</strong> TensorFlow, Keras, PyTorch, Scikit-learn (SVM, Random Forest, Ensemble, PCA), Linear Regression, Naive Bayes, k-NN, Decision Trees, YOLO, CLIPSeg, ViT, Q-Learning</p>
+<p><strong>Other:</strong> Streamlit, HTML, CSS</p>
+
+<hr>
+
+<h2>Education</h2>
+
+<p>
+  <strong>Mahidol University</strong><br>
+  Bachelor of Science, Major in Mathematics
+</p>
+
+<hr>
+
+<h2>Projects</h2>
+
+<hr>
+
+<h3>ShrimpVision</h3>
+<p>
+  <strong>Senior project - Deep learning web application for shrimp post-larvae
+  detection, counting, model comparison, and preliminary video activity analysis.</strong>
+</p>
+<ul>
+  <li>Built a Flask-based web application for image and video inference workflows.</li>
+  <li>Trained and evaluated YOLOv5s, YOLOv8s, and YOLOv10s.</li>
+  <li>Measured precision, recall, F1-score, mAP50, mAP50-95, MAE, RMSE, within-10 rate, and FPS.</li>
+  <li>Best reported result: YOLOv5s at confidence 0.25 with MAE 14.13, RMSE 24.31, 63.33% within-10 rate, and 93.11 FPS.</li>
+</ul>
+<p>
+  <strong>Tech:</strong> Python, Flask, YOLO, computer vision, Render<br>
+  <a href="https://github.com/shiniji123/ShrimpVision">Repository</a> |
+  <a href="https://shrimpvision.onrender.com">Live demo</a>
+</p>
+
+<h3>Leaf Classification Web Service</h3>
+<p>
+  <strong>Streamlit-based computer vision web service for leaf detection,
+  preprocessing, and venation classification.</strong>
+</p>
+<p>
+  <img
+    class="project-screenshot"
+    src="assets/img/leaf-classification-web-service.png"
+    alt="Leaf Classification Web Service interface showing original leaf image, detected leaf mask, and ConvNeXt prediction result"
+  >
+</p>
+<ul>
+  <li>Built an end-to-end app using Streamlit, PyTorch, and computer vision models.</li>
+  <li>Integrated CLIPSeg-based leaf region detection and cropping.</li>
+  <li>Extracted ViT/DINOv2 image features and trained SVM, RandomForest, ConvNeXt1D, PCA, and ensemble classifiers.</li>
+  <li>Evaluated models using accuracy, macro-F1, classification reports, confusion matrices, and inference timing.</li>
+</ul>
+<p>
+  <strong>Tech:</strong> Python, Streamlit, PyTorch, ViT, Scikit-learn<br>
+  <a href="https://github.com/shiniji123/Leaf_Cot">Repository</a>
+</p>
+
+<h3>MU Course Review Web Service</h3>
+<p>
+  <strong>Streamlit course review platform for Mahidol University students.</strong>
+</p>
+<p>
+  <img
+    class="project-screenshot"
+    src="assets/img/mu-course-review.png"
+    alt="MU Course Review interface showing the student course review submission form"
+  >
+</p>
+<ul>
+  <li>Built student sign-up, login, email verification, password reset, and review submission flows.</li>
+  <li>Integrated Google Sheets as a course catalog and optional review database using gspread.</li>
+  <li>Implemented pending approval workflow, admin moderation, filtering, sorting, and CSV/JSON export.</li>
+</ul>
+<p>
+  <strong>Tech:</strong> Python, Streamlit, Google Sheets, gspread<br>
+  <a href="https://github.com/shiniji123/Review/tree/master">Repository</a> |
+  <a href="https://review-test-2.streamlit.app/">Live demo</a>
+</p>
+
+<h3>A.V.A - Thailand Summer Jam 2026</h3>
+<p>
+  <strong>Godot-based 2D action roguelite submitted to Thailand Summer Jam 2026.</strong>
+</p>
+<p>
+  <img
+    class="project-screenshot"
+    src="assets/img/ava-game.png"
+    alt="A.V.A game start screen from Thailand Summer Jam 2026"
+  >
+</p>
+<ul>
+  <li>Developed exploration areas, combat rooms, NPC interactions, dialogue sequences, and cutscenes.</li>
+  <li>Implemented player movement, health, knockback, camera shake, auto-target combat, projectiles, enemies, elites, and multi-phase bosses.</li>
+  <li>Built run-based systems including waves, coins, shop upgrades, perks, relics, rewards, stat calculation, and save/load management.</li>
+  <li>Ranked #53 in Creativity and #54 in Aesthetics out of 133 submissions, with overall rank #68.</li>
+</ul>
+<p>
+  <strong>Tech:</strong> Godot, GDScript<br>
+  <a href="https://shinchan143.itch.io/ava">Play on itch.io</a> |
+  <a href="https://github.com/shiniji123/new-gamejam-2026">Repository</a>
+</p>
+
+<h3>Slave Online Card Game</h3>
+<p>
+  <strong>Real-time multiplayer web-based card game built with React, Firebase
+  Firestore, and Tailwind CSS.</strong>
+</p>
+<p>
+  <img
+    class="project-screenshot"
+    src="assets/img/slave-online-card-game.png"
+    alt="Slave Online Card Game multiplayer gameplay screen"
+  >
+</p>
+<ul>
+  <li>Built room creation, private room codes, and Firebase Firestore synchronization.</li>
+  <li>Implemented turn validation, card ranking, pass system, King Down, reverse flow, and auto-exchange rules.</li>
+  <li>Designed responsive UI with playable-card hints, auto-select helpers, player roles, avatars, and round summaries.</li>
+</ul>
+<p>
+  <strong>Tech:</strong> React, Firebase, Tailwind CSS<br>
+  <a href="https://github.com/shiniji123/slave_card_game/tree/v3">Repository</a>
+</p>
