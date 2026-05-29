@@ -3,9 +3,9 @@ description: Recent Mathematics graduate seeking practical industry experience t
 logo: https://avatars.githubusercontent.com/u/186496505?v=4
 show_downloads: false
 theme: jekyll-theme-minimal
-repository: shiniji123/anucha.sae.work.github.io
+repository: shiniji123/shiniji123.github.io
 url: https://shiniji123.github.io
-baseurl: /anucha.sae.work.github.io
+baseurl: ""
 
 github:
   is_project_page: false

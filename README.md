@@ -36,7 +36,7 @@ refreshes.
 
 ## Publish with GitHub Pages
 
-1. Create a repository named `anucha.sae.work.github.io`.
+1. Create a repository named `shiniji123.github.io`.
 2. Upload these files to the repository root.
 3. Open `Settings > Pages`.
 4. Choose `Deploy from a branch`.
@@ -45,7 +45,7 @@ refreshes.
 The portfolio will publish at:
 
 ```text
-https://shiniji123.github.io/anucha.sae.work.github.io/
+https://shiniji123.github.io/
 ```
 
 ## Local preview
