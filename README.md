@@ -6,7 +6,7 @@ Jekyll portfolio using the GitHub Pages Minimal theme.
 
 - `_config.yml` - Jekyll and Minimal theme settings
 - `index.html` - portfolio content
-- `assets/anucha-saelee-resume.pdf` - resume download
+- `assets/Resume_Anucha_Saelee.pdf` - resume download
 - `assets/img/leaf-classification-web-service.png` - Leaf Classification Web Service screenshot
 - `assets/img/mu-course-review.png` - MU Course Review screenshot
 - `assets/img/ava-game.png` - A.V.A game screenshot
